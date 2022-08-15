@@ -13,7 +13,7 @@
       rgba(6, 17, 75, 0.5),
       rgba(20, 8, 70, 0.6)
     ),
-    url(./assets/pexels-maxyne-barcel-10402282\ 1.png);
+    url(../assets/pexels-maxyne-barcel-10402282\ 1.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,20 +44,24 @@ section[aria-label="navbar"] {
 
 .list-item {
   display: inline-block;
-  margin-left: 50px;
-  font-size: 22px;
+  margin-left: 45px;
+  font-size: 23px;
   font-weight: 600;
   color: #f3b919;
   position: relative;
   bottom: 20px;
+}
+
+.list-item:hover {
   cursor: pointer;
+  color: #f3b919d8;
 }
 
 .button-small {
   margin-left: 200px;
-  padding: 6px 35px;
+  padding: 8px 35px;
   border: none;
-  border-radius: 2px;
+  border-radius: 3px;
   background-color: #ef5354;
   color: #ffffff;
   font-size: 22px;
@@ -92,7 +96,7 @@ section[aria-label="hero"] {
 
 .hero-heading {
   font-family: "Dela Gothic One";
-  font-size: 55px;
+  font-size: 60px;
   color: #f3b919;
   letter-spacing: 1px;
   word-spacing: 8px;
@@ -101,11 +105,11 @@ section[aria-label="hero"] {
 .button-large {
   background-color: #ef5354;
   color: #ffffff;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 600;
-  padding: 12px 55px;
+  padding: 15px 50px;
   border: none;
-  border-radius: 2px;
+  border-radius: 3px;
   position: relative;
   top: 40px;
 }
@@ -119,5 +123,5 @@ img[alt="bottom-logo"] {
   height: 130px;
   position: relative;
   left: 500px;
-  top: 30px;
+  top: 0px;
 }
