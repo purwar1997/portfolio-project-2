@@ -24,4 +24,4 @@ A simple home page for a restaurant created using
 - How to use `linear-gradient()` function over a cover image
 - How to create buttons and add custom `animations` to it
 
-### [**Live link**](https://portfolio-project-2.vercel.app/) of the project.
+### [**Live link**](https://portfolio-project-2.vercel.app/) of the project
