@@ -16,7 +16,7 @@ A simple home page for a restaurant created using
 
 **Time took to complete this project :** 2.5 hours
 
-## Things I learnt by creating this project :-
+## What I learnt by doing this project :-
 
 - How to create a navigation bar
 - How to use CSS `relative` position
@@ -24,4 +24,4 @@ A simple home page for a restaurant created using
 - How to use `linear-gradient()` function over a cover image
 - How to create buttons and add custom `animations` to it
 
-To view this project, [**click here**](https://portfolio-project-2.vercel.app/).
+[**Live link**](https://portfolio-project-2.vercel.app/) of the project.
