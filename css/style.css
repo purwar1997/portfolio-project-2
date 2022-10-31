@@ -6,12 +6,27 @@
   font-family: "Red Rose", cursive;
 }
 
+button {
+  background-color: #ff505f;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+  border: none;
+  border-radius: 3px;
+  transition: background-color 250ms ease;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #ff7682;
+}
+
 .container {
   height: 100vh;
   background: linear-gradient(
       to right,
-      rgba(6, 17, 75, 0.5),
-      rgba(20, 8, 70, 0.6)
+      rgba(20, 8, 70, 0.6),
+      rgba(6, 17, 75, 0.5)
     ),
     url(../assets/pexels-maxyne-barcel-10402282\ 1.png);
   background-position: center;
@@ -19,109 +34,66 @@
   background-size: cover;
 }
 
-section[aria-label="navbar"] {
-  height: 20vh;
-}
-
 .navbar {
-  position: relative;
-  top: 50px;
+  padding-top: 40px;
 }
 
-.navbar div {
+.navbar > div {
   display: inline-block;
 }
 
 .logo {
-  margin-left: 50px;
+  margin-left: 60px;
+  width: 130px;
   cursor: pointer;
+  position: relative;
+  top: 10px;
 }
 
 .list {
-  margin-left: 180px;
+  margin-left: 210px;
   list-style-type: none;
 }
 
 .list-item {
   display: inline-block;
   margin-left: 45px;
-  font-size: 23px;
-  font-weight: 600;
-  color: #f3b919;
-  position: relative;
-  bottom: 20px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #ffc233;
 }
 
 .list-item:hover {
   cursor: pointer;
-  color: #f3b919d8;
+  opacity: 0.85;
 }
 
 .button-small {
-  margin-left: 200px;
+  margin-left: 250px;
   padding: 8px 35px;
-  border: none;
-  border-radius: 3px;
-  background-color: #ef5354;
-  color: #ffffff;
-  font-size: 22px;
-  font-weight: 600;
-  position: relative;
-  bottom: 20px;
-}
-
-.button-small:hover {
-  cursor: pointer;
-  animation: zoom 200ms ease 1 forwards;
-}
-
-@keyframes zoom {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.05);
-  }
-}
-
-section[aria-label="hero"] {
-  height: 80vh;
 }
 
 .hero {
-  position: relative;
-  top: 40px;
+  padding-top: 70px;
   text-align: center;
 }
 
 .hero-heading {
   font-family: "Dela Gothic One";
   font-size: 60px;
-  color: #f3b919;
+  color: #ffc233;
   letter-spacing: 1px;
-  word-spacing: 8px;
+  word-spacing: 10px;
 }
 
 .button-large {
-  background-color: #ef5354;
-  color: #ffffff;
-  font-size: 24px;
-  font-weight: 600;
-  padding: 15px 50px;
-  border: none;
-  border-radius: 3px;
-  position: relative;
-  top: 40px;
-}
-
-.button-large:hover {
-  cursor: pointer;
-  animation: zoom 200ms ease 1 forwards;
+  margin-top: 50px;
+  padding: 15px 40px;
 }
 
 img[alt="bottom-logo"] {
-  height: 130px;
-  position: relative;
-  left: 500px;
-  top: 0px;
+  width: 120px;
+  position: absolute;
+  right: 100px;
+  bottom: 50px;
 }
