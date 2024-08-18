@@ -1,19 +1,13 @@
 # Portfolio Project 2
 
 ![HTML](https://img.shields.io/badge/-HTML-red)
-![CSS](https://img.shields.io/badge/-CSS-brightgreen)
-![CSS Transition](https://img.shields.io/badge/-CSS%20Animations-blue)
-![Linear Gradient](https://img.shields.io/badge/-Linear%20Gradient-orange)
+![CSS](https://img.shields.io/badge/-CSS-blue)
 
 ## Description
 
-This project is a restaurant home page created using `HTML` and `CSS`.
+This project is a home page for restaurant created using `HTML` and `CSS`.
 
-**Created By :** Shubham Purwar
-
-**Time took to complete the project :** 2.5 hours
-
-## What I learnt by creating this project :-
+### Learnings from this project :-
 
 - How to create a navigation bar
 - How to set a cover image using CSS properties `background-position` and `background-size`
@@ -24,4 +18,4 @@ This project is a restaurant home page created using `HTML` and `CSS`.
 
 ![preview](./preview.png)
 
-### [**Live link**](https://portfolio-project-2.vercel.app/) of the project.
+### [**Live link**](https://portfolio-project-2-five.vercel.app) of the project.
